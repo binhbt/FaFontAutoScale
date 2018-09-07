@@ -26,7 +26,7 @@ Add a dependency to your all project `build.gradle`:
 Add a dependency to your `build.gradle`:
 
     dependencies {
-        implementation 'com.github.binhbt:FaBus:$1.0.2'
+        implementation 'com.github.binhbt:FaFontAutoScale:1.0.0'
     }
 
 
