@@ -1,0 +1,53 @@
+ext.versions = [
+        code           : 7,
+        name           : '1.1.4',
+
+        minSdk         : 15,
+        targetSdk      : 24,
+        compileSdk     : 24,
+        buildTools     : '25.0.0',
+
+        // Library versions
+        supportLibs    : '23.3.0',
+        nineOldAndroids: '2.4.0',
+        materialicons  : '1.0.1',
+        stickyheaders  : '0.5.0',
+		retrofit2  : '2.3.0',
+		okhttp3	   : '3.4.2',
+		rxjava     : '2.1.6',
+		rxandroid     : '2.0.1',
+		multidex     : '1.0.1',
+		butterknife  : '7.0.1',
+		eventbus  	 : '3.0.0',
+		picasso      : '2.5.2',
+		firebase	 : '11.4.2',
+		fresco		 : '1.5.0',
+        retrofit2rx2 : '1.0.0'
+]
+
+ext.libraries = [
+        supportRecyclerView: "com.android.support:recyclerview-v7:$versions.supportLibs",
+        supportAppCompat   : "com.android.support:appcompat-v7:$versions.supportLibs",
+        supportDesign      : "com.android.support:design:$versions.supportLibs",
+        supportCardView    : "com.android.support:cardview-v7:$versions.supportLibs",
+        supportAnnotations : "com.android.support:support-annotations:$versions.supportLibs",
+
+        nineOldAndroids    : "com.nineoldandroids:library:$versions.nineOldAndroids",
+        materialicons      : "com.malinskiy:materialicons:$versions.materialicons",
+        stickyheaders      : "com.eowise:recyclerview-stickyheaders:${versions.stickyheaders}@aar",
+		retrofit2core      : "com.squareup.retrofit2:retrofit:$versions.retrofit2",
+		retrofit2convertergson      	   : "com.squareup.retrofit2:converter-gson:$versions.retrofit2",
+		retrofit2adapterrxjava      	   : "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$versions.retrofit2rx2",
+		retrofit2logging      	   : "com.squareup.okhttp3:logging-interceptor:$versions.okhttp3",
+		okhttp3            : "com.squareup.okhttp3:okhttp:$versions.okhttp3",
+		rxjava      	   : "io.reactivex.rxjava2:rxjava:$versions.rxjava",
+		rxandroid     	   : "io.reactivex.rxjava2:rxandroid:$versions.rxandroid",
+		multidex     	   : "com.android.support:multidex:$versions.multidex",
+		butterknife        : "com.jakewharton:butterknife:$versions.butterknife",
+		eventbus     	   : "org.greenrobot:eventbus:$versions.eventbus",
+		picasso			   : "com.squareup.picasso:picasso:$versions.picasso",
+		firebase_analytics: 'com.google.firebase:firebase-analytics:$versions.firebase',
+		firebase_invites: 'com.google.firebase:firebase-invites:$versions.firebase',
+		firebase_messaging: 'com.google.firebase:firebase-messaging:$versions.firebase',
+		fresco: 'com.facebook.fresco:fresco:$versions.fresco',
+]
