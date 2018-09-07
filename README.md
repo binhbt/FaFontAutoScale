@@ -1,14 +1,11 @@
 
-Fuckin Awesome Bus - Fuckin Simple Bus
+Fuckin Simple TextView Scale Font Injection use Annotation
 =================
-
-Fucking Simple Bus implement Observer Pattern
-![Demo](https://github.com/binhbt/FaBus/raw/master/observer.png)
 
 Demo
 -------
 This is the sample app in action:
-https://github.com/binhbt/FaBusDemo
+https://github.com/binhbt/FaFontAutoScaleDemo
 
 
 Usage
@@ -23,24 +20,23 @@ Add a dependency to your all project `build.gradle`:
     }
 
 -------
-Add a dependency to your `build.gradle`:
+Add a dependency to your 
+`build.gradle`:
 
     dependencies {
         implementation 'com.github.binhbt:FaFontAutoScale:1.0.0'
     }
 
 
-Register Event for Subcribers:
+Register TextView for Scale:
 
 ```
-FaBus.getDefault().registerEvent(new OnEventReceived() {
-            @Override
-            public void onEventReceived(Object event) {
-            }
-        }, TAG);
+        @FontAutoScale
+        public TextView movieName;
 ```
- - `FaBus.getDefault().unRegisterEvent(TAG);`: Remove subcribe
- - `FaBus.getDefault().postEvent("Message");`: Send an event
+ - `FontManager.bind(object);`: Class contain TextView
+
+Done!
  
 
 Original License
