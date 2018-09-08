@@ -8,6 +8,7 @@ This is the sample app in action:
 https://github.com/binhbt/FaFontAutoScaleDemo
 
 
+[![https://img.youtube.com/vi/w9SiuWLal-4/0.jpg](http://img.youtube.com/vi/w9SiuWLal-4/0.jpg)](https://www.youtube.com/watch?v=w9SiuWLal-4 "Fucking Awesome Recyclerview")
 Usage
 -------
 Add a dependency to your all project `build.gradle`:
