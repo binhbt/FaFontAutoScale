@@ -94,7 +94,15 @@ public class FontManager {
             }
         }
     }
-
+    public float getOriginSize(TextView textView){
+        float originSize = textView.getTextSize();
+        if (FontManager.getDefault().originItemSize.get(textView.hashCode() + "") != null) {
+            originSize = FontManager.getDefault().originItemSize.get(textView.hashCode() + "");
+        } else {
+            FontManager.getDefault().originItemSize.put(textView.hashCode() + "", originSize);
+        }
+        return originSize;
+    }
     public static void adjustFontScale(Context ctx, float scale) {
         Configuration configuration = ctx.getResources().getConfiguration();
         configuration.fontScale = scale;
