@@ -94,7 +94,7 @@ public class FontManager {
             }
         }
     }
-    public float getOriginSize(TextView textView){
+    public static float getOriginSize(TextView textView){
         float originSize = textView.getTextSize();
         if (FontManager.getDefault().originItemSize.get(textView.hashCode() + "") != null) {
             originSize = FontManager.getDefault().originItemSize.get(textView.hashCode() + "");
