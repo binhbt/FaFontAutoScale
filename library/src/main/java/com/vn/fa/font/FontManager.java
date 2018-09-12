@@ -103,7 +103,7 @@ public class FontManager {
         }
         return originSize;
     }
-    public static void adjustFontScale(Context ctx, float scale) {
+    public static void adjustFontScaleAll(Context ctx, float scale) {
         Configuration configuration = ctx.getResources().getConfiguration();
         configuration.fontScale = scale;
         DisplayMetrics metrics = ctx.getResources().getDisplayMetrics();

@@ -3,9 +3,9 @@ ext.versions = [
         name           : '1.1.4',
 
         minSdk         : 15,
-        targetSdk      : 24,
-        compileSdk     : 24,
-        buildTools     : '25.0.0',
+        targetSdk      : 27,
+        compileSdk     : 27,
+        buildTools     : '27.0.3',
 
         // Library versions
         supportLibs    : '23.3.0',
@@ -16,7 +16,7 @@ ext.versions = [
 		okhttp3	   : '3.4.2',
 		rxjava     : '2.1.6',
 		rxandroid     : '2.0.1',
-		multidex     : '1.0.1',
+		multidex     : '1.0.2',
 		butterknife  : '7.0.1',
 		eventbus  	 : '3.0.0',
 		picasso      : '2.5.2',
