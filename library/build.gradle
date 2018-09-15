@@ -68,6 +68,9 @@ buildscript {
 }
 apply plugin: 'me.tatarka.retrolambda'
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+    //annotation processing
+    implementation project(':binder')
+    annotationProcessor project(':compiler')
 }
