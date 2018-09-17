@@ -10,32 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dc61494-341a-43bc-accb-126a35c2e563" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/ViewGroupUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/WebViewUtil.java" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/common_1_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/livedata_core_1_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/runtime_1_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_27_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/viewmodel_1_1_0.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddeft/recyclerviewdemo/MoviesAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddeft/recyclerviewdemo/MoviesAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/movie_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/movie_list.xml" />
-      <change beforePath="$PROJECT_DIR$/binder/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/binder/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/binder/src/main/java/com/leo/binder/FontBinding.java" afterPath="$PROJECT_DIR$/binder/src/main/java/com/leo/binder/FontBinding.java" />
-      <change beforePath="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/FontManager.java" afterPath="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/FontManager.java" />
-      <change beforePath="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/TextViewUtil.java" afterPath="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/TextViewUtil.java" />
-      <change beforePath="$PROJECT_DIR$/binder/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/binder/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/leo/compiler/lib/ProcessingUtils.java" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/leo/compiler/lib/ProcessingUtils.java" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/leo/compiler/lib/Processor.java" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/leo/compiler/lib/Processor.java" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change beforePath="$PROJECT_DIR$/annotations/build.gradle" afterPath="$PROJECT_DIR$/annotations/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/binder/binder.iml" afterPath="$PROJECT_DIR$/binder/binder.iml" />
+      <change beforePath="$PROJECT_DIR$/binder/build.gradle" afterPath="$PROJECT_DIR$/binder/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/compiler/build.gradle" afterPath="$PROJECT_DIR$/compiler/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            <state relative-caret-position="414">
+              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -104,8 +108,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binder/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="576">
+              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -121,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/annotations/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -135,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/FontManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,10 +246,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="bundleAppClassesRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -281,10 +281,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -325,10 +321,6 @@
                 <option name="description" value="Deletes the build cache directory." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="cleanBuildCache" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assembleDefault" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -392,10 +384,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -404,31 +392,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="checkReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="verifyReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -468,10 +436,6 @@
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateReleaseRFile" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -515,20 +479,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preparePUBLISHED_DEXDebugForPublishing" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractReleaseAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -636,10 +591,6 @@
                 <option name="name" value="compileReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDebugRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintRelease" />
@@ -683,10 +634,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -734,10 +681,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="writeReleaseApplicationId" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -746,28 +689,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeReleaseConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexBuilderForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in debug." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bundleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -785,11 +711,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preparePUBLISHED_JAVA_RESReleaseForPublishing" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in release." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bundleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of root project 'FaFontAutoScale'. [incubating]" />
@@ -821,15 +742,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="bundleDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'FaFontAutoScale'." />
@@ -843,6 +756,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="install" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -878,11 +796,6 @@
                 <option name="description" value="Assembles all Debug builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractDebugAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -938,10 +851,6 @@
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createFullJarDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -949,10 +858,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexBuilderForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1070,10 +975,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createFullJarRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1250,6 +1151,11 @@
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/annotations" />
                 <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/annotations" />
+                <option name="name" value="install" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
@@ -2012,561 +1918,9 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':binder'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeReleaseConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="validateSigningDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in debug." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="bundleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processReleaseJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="lintDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in release." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="bundleRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="reportBuildArtifactsRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mockableAndroidJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':binder'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':binder'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="bundleDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="deviceCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':binder'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="lint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mainApkListPersistenceDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugAndroidTestBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processDebugUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build cache directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="cleanBuildCache" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleDefault" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preparePUBLISHED_JAVA_RESDebugAndroidTestForPublishing" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by project ':binder'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
                 <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Debug builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processDebugAndroidTestManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugUnitTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preDebugAndroidTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="extractDebugAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processDebugAndroidTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processReleaseUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="reportBuildArtifactsDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="javaPreCompileDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="checkReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="javaPreCompileDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="verifyReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeReleaseJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="prepareLintJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="deviceAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="uninstallDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':binder'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preReleaseBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all variants of all applications and secondary packages." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="createFullJarDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateReleaseRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="installDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformClassesWithDexBuilderForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="javaPreCompileReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preparePUBLISHED_DEXDebugAndroidTestForPublishing" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="javaPreCompileRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all device checks on currently connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="connectedCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for debug on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="connectedDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="uninstallAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all the Test applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="extractReleaseAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preDebugUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileLint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugAndroidTestResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the Android dependencies of the project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="androidDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAndroidTestNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformDexArchiveWithExternalLibsDexMergerForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="extractProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processDebugJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="consumeConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preReleaseUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="javaPreCompileDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="testDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="connectedAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileReleaseAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugRFile" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="lintRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
@@ -2574,12 +1928,14 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':binder'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugAssets" />
+                <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
+                <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in project ':binder'. [incubating]" />
@@ -2592,66 +1948,59 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="checkDebugManifest" />
+                <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugJniLibFolders" />
+                <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prints out all the source sets defined in this project." />
+                <option name="description" value="Assembles a jar archive containing the main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="sourceSets" />
+                <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':binder'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeReleaseAssets" />
+                <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':binder'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="createFullJarRelease" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugRenderscript" />
+                <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageDebugRenderscript" />
+                <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':binder'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateReleaseBuildConfig" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preparePUBLISHED_NATIVE_LIBSDebugAndroidTestForPublishing" />
+                <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="platformAttrExtractor" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the signing info for each variant." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="signingReport" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAndroidTestAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugAndroidTestShaders" />
+                <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
@@ -2659,12 +2008,24 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="preDebugBuild" />
+                <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':binder'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugBuildConfig" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
+                <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -2672,37 +2033,14 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles all Release builds." />
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="assembleRelease" />
+                <option name="name" value="install" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="resolveConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="mergeDebugConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="compileDebugAndroidTestRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="processDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="packageDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/binder" />
-                <option name="name" value="generateReleaseResValues" />
+                <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':binder'." />
@@ -2831,6 +2169,11 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/compiler" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/compiler" />
                 <option name="name" value="buildNeeded" />
@@ -2859,6 +2202,10 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/19aff502e87dbefa2bd241547e244acb664bcf71/android-maven-gradle-plugin-2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/67f7484c6ab0deccd5f7e8a73881472d2dff56fe/android-maven-gradle-plugin-2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -3011,6 +2358,10 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/19aff502e87dbefa2bd241547e244acb664bcf71/android-maven-gradle-plugin-2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/67f7484c6ab0deccd5f7e8a73881472d2dff56fe/android-maven-gradle-plugin-2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -3163,6 +2514,10 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/19aff502e87dbefa2bd241547e244acb664bcf71/android-maven-gradle-plugin-2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/67f7484c6ab0deccd5f7e8a73881472d2dff56fe/android-maven-gradle-plugin-2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -3315,6 +2670,10 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/19aff502e87dbefa2bd241547e244acb664bcf71/android-maven-gradle-plugin-2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/67f7484c6ab0deccd5f7e8a73881472d2dff56fe/android-maven-gradle-plugin-2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -3467,6 +2826,10 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/19aff502e87dbefa2bd241547e244acb664bcf71/android-maven-gradle-plugin-2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dcendents/android-maven-gradle-plugin/2.0/67f7484c6ab0deccd5f7e8a73881472d2dff56fe/android-maven-gradle-plugin-2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -3795,6 +3158,10 @@
         <option value="$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/FontManager.java" />
         <option value="$PROJECT_DIR$/binder/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/compiler/src/main/java/com/leo/compiler/lib/ProcessingUtils.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/compiler/build.gradle" />
+        <option value="$PROJECT_DIR$/binder/build.gradle" />
+        <option value="$PROJECT_DIR$/annotations/build.gradle" />
       </list>
     </option>
   </component>
@@ -3862,71 +3229,7 @@
             </path>
             <path>
               <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="recyclerviewdemo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="recyclerviewdemo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="binder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
-              <item name="binder" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="binder" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
               <item name="FaFontAutoScale" type="1abcf292:AndroidViewProjectNode" />
@@ -4163,7 +3466,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980047" sideWeight="0.48507464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9035948" sideWeight="0.4660814" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.9035948" sideWeight="0.4660814" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4397,7 +3700,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4456,7 +3759,7 @@
     <entry file="file://$PROJECT_DIR$/binder/src/main/java/com/vn/fa/font/FontManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -4489,6 +3792,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/compiler/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4499,32 +3818,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/binder/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="576">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/annotations/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>

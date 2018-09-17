@@ -1,5 +1,5 @@
 apply plugin: 'java-library'
-
+apply plugin: 'java'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'com.android.support:support-annotations:27.1.1'
