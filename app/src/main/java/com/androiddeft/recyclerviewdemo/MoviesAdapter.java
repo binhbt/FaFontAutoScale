@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.beans.Movie;
@@ -19,6 +20,7 @@ import java.util.List;
  */
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomViewHolder> {
+
     private List<Movie> movies;
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
@@ -28,9 +30,11 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomView
         TextView year;
         public TextView genre;
         public TextView rating;
-
+        @AutoScale
+        View root;
         public CustomViewHolder(View view) {
             super(view);
+            root = view.findViewById(R.id.rl_root);
             movieName = (TextView) view.findViewById(R.id.movieName);
             genre = (TextView) view.findViewById(R.id.genre);
             year = (TextView) view.findViewById(R.id.year);
@@ -44,8 +48,15 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomView
             rating.setText(String.valueOf(movie.getRating()));
         }
         public class Test{
+            @AutoScale
+            View root;
 
+            public class Test1{
+                @AutoScale
+                View root1;
+            }
         }
+
     }
 
     public MoviesAdapter(List<Movie> movies) {

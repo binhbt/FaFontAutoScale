@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:focusable="true"
     android:clickable="true"
+    android:id="@+id/rl_root"
     android:background="?android:attr/selectableItemBackground"
     >
 

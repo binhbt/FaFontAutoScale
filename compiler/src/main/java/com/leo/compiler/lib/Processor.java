@@ -18,15 +18,19 @@ import javax.annotation.processing.Filer;
 import javax.annotation.processing.Messager;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.RoundEnvironment;
+import javax.lang.model.element.Element;
+import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.Modifier;
+import javax.lang.model.element.NestingKind;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.ElementFilter;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
 
-import sun.rmi.runtime.Log;
-
+/**
+ * leobui 09/17/2018
+ */
 
 public class Processor extends AbstractProcessor {
 
@@ -56,10 +60,11 @@ public class Processor extends AbstractProcessor {
 
             // for each such class create a wrapper class for binding
             for (TypeElement typeElement : typeElements) {
+                //String parentClass = getParentChain(typeElement);
                 String packageName = elementUtils.getPackageOf(typeElement).getQualifiedName().toString();
-                String typeName = typeElement.getSimpleName().toString();
+                String typeName = getParentChain(typeElement);
                 ClassName className = ClassName.get(packageName, typeName);
-                System.out.printf("Test", className.toString());
+                messager.printMessage(Diagnostic.Kind.ERROR, className.toString(), typeElement);
                 ClassName generatedClassName = ClassName
                         .get(packageName, NameStore.getGeneratedClassName(typeName));
 
@@ -89,15 +94,15 @@ public class Processor extends AbstractProcessor {
                 for (VariableElement variableElement : ElementFilter.fieldsIn(typeElement.getEnclosedElements())) {
                     AutoScale fontAutoScale = variableElement.getAnnotation(AutoScale.class);
                     if (fontAutoScale != null) {
-                        if(fontAutoScale.isScale())
-                        bindViewsMethodBuilder.addStatement("$T.applyScaleFont($N.$N)",
-                                fontManagerClassName,
-                                NameStore.Variable.CONTAINER,
-                                variableElement.getSimpleName());
+                        if (fontAutoScale.isScale())
+                            bindViewsMethodBuilder.addStatement("$T.applyScaleFont($N.$N)",
+                                    fontManagerClassName,
+                                    NameStore.Variable.CONTAINER,
+                                    variableElement.getSimpleName());
                     }
                     IgnoreScale fontIgnoreScale = variableElement.getAnnotation(IgnoreScale.class);
                     if (fontIgnoreScale != null) {
-                        if(fontIgnoreScale.isIgnoreScale())
+                        if (fontIgnoreScale.isIgnoreScale())
                             bindViewsMethodBuilder.addStatement("$T.applyScaleDownFont($N.$N)",
                                     fontManagerClassName,
                                     NameStore.Variable.CONTAINER,
@@ -127,4 +132,23 @@ public class Processor extends AbstractProcessor {
                 IgnoreScale.class.getCanonicalName(),
                 Keep.class.getCanonicalName()));
     }
+
+    private static String getParentChain(final TypeElement targetClass) {
+        // if input is top level class return it
+        // otherwise return the parent chain plus it
+
+        if (targetClass.getNestingKind() == NestingKind.TOP_LEVEL) {
+            return targetClass.getSimpleName().toString();
+        } else {
+            final Element parent = targetClass.getEnclosingElement();
+
+            if (parent.getKind() != ElementKind.CLASS) {
+                return null;
+                //throw new RuntimeException("Cannot create parent chain. Non-class parent found.");
+            }
+
+            return (getParentChain((TypeElement) parent)) + "$" + targetClass.getSimpleName().toString();
+        }
+    }
+
 }

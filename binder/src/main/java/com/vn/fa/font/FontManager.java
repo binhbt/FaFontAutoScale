@@ -3,11 +3,12 @@ package com.vn.fa.font;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.webkit.WebView;
 import android.widget.TextView;
 
-import com.leo.lib.annotations.AutoScale;
-import com.leo.lib.annotations.IgnoreScale;
 import com.leo.lib.annotations.com.vn.fa.font.FontAutoScale;
 import com.leo.lib.annotations.com.vn.fa.font.FontIgnoreScale;
 
@@ -88,7 +89,15 @@ public class FontManager {
                             }
                             TextViewUtil.scaleUp(textView, originSize, FontManager.getDefault().getScale());
                         }
-             }
+                    if (field.get(view) instanceof ViewGroup) {
+                        View v = (View) field.get(view);
+                        ViewGroupUtil.scaleUp(v);
+                    }
+                    if (field.get(view) instanceof WebView) {
+                        WebView webView = (WebView) field.get(view);
+                        WebViewUtil.scaleUp(webView, FontManager.getDefault().getScale());
+                    }
+                }
                 if (field.isAnnotationPresent(FontIgnoreScale.class)) {
                     FontIgnoreScale fontIgnoreScale = field.getAnnotation(FontIgnoreScale.class);
                     if (FontManager.getDefault().getScaleType() == FontScaleType.SCALE_ALL)
@@ -102,6 +111,15 @@ public class FontManager {
                             }
                             TextViewUtil.changeTextSize(textView, originSize);
                         }
+
+                    if (field.get(view) instanceof ViewGroup) {
+                        View v = (View) field.get(view);
+                        ViewGroupUtil.scaleDown(v);
+                    }
+                    if (field.get(view) instanceof WebView) {
+                        WebView webView = (WebView) field.get(view);
+                        WebViewUtil.scaleDown(webView, FontManager.getDefault().getScale());
+                    }
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -129,9 +147,11 @@ public class FontManager {
         ctx.getResources().updateConfiguration(configuration, metrics);
     }
 
-    public static void applyScaleFont(TextView textView){
-        if (FontManager.getDefault().getScaleType() == FontScaleType.NOT_SCALE_ALL)
-            if (textView !=null) {
+    public static void applyScaleFont(View v) {
+        if (FontManager.getDefault().getScaleType() != FontScaleType.NOT_SCALE_ALL) return;
+        if (v instanceof TextView) {
+            TextView textView = (TextView) v;
+            if (textView != null) {
                 float originSize = textView.getTextSize();
                 if (FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "") != null) {
                     originSize = FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "");
@@ -140,11 +160,21 @@ public class FontManager {
                 }
                 TextViewUtil.scaleUp(textView, originSize, FontManager.getDefault().getScale());
             }
-
+        }
+        if (v instanceof ViewGroup) {
+            ViewGroupUtil.scaleUp(v);
+        }
+        if (v instanceof WebView) {
+            WebViewUtil.scaleUp((WebView) v, FontManager.getDefault().getScale());
+        }
     }
-    public static void applyScaleDownFont(TextView textView){
-        if (FontManager.getDefault().getScaleType() == FontScaleType.SCALE_ALL)
-            if (textView !=null) {
+
+    public static void applyScaleDownFont(View v) {
+
+        if (FontManager.getDefault().getScaleType() != FontScaleType.SCALE_ALL) return;
+        if (v instanceof TextView) {
+            TextView textView = (TextView) v;
+            if (textView != null) {
                 float originSize = textView.getTextSize() / FontManager.getDefault().getScale();
                 if (FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "") != null) {
                     originSize = FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "");
@@ -153,5 +183,12 @@ public class FontManager {
                 }
                 TextViewUtil.changeTextSize(textView, originSize);
             }
+        }
+        if (v instanceof ViewGroup) {
+            ViewGroupUtil.scaleDown(v);
+        }
+        if (v instanceof WebView) {
+            WebViewUtil.scaleDown((WebView) v, FontManager.getDefault().getScale());
+        }
     }
 }
