@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+    <!--android:id="@+id/save_contact"-->
+    <!--android:icon="@drawable/edit_new"-->
+    <!--android:title="Save Contact"-->
+    <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/font_small"
+        android:title="Small"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/font_big"
+        android:title="Big"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/font_huge"
+        android:title="Huge"
+        app:showAsAction="never" />
+</menu>
