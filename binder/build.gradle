@@ -1,7 +1,7 @@
-//apply plugin: 'com.android.library'
-apply plugin: 'java-library'
-apply plugin: 'java'
-/*android {
+apply plugin: 'com.android.library'
+//apply plugin: 'java-library'
+//apply plugin: 'java'
+android {
     compileSdkVersion versions.compileSdk
     buildToolsVersion versions.buildTools
     defaultConfig {
@@ -20,7 +20,7 @@ apply plugin: 'java'
         }
     }
 
-}*/
+}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
