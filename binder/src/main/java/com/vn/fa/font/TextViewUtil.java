@@ -14,7 +14,7 @@ public class TextViewUtil {
         textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, size);
     }
 
-    public static void scaleUp(TextView textView){
+    static void scaleUp(TextView textView){
         float originSize = textView.getTextSize();
         if (FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "") != null) {
             originSize = FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "");
@@ -23,8 +23,8 @@ public class TextViewUtil {
         }
         changeTextSize(textView, originSize * FontManager.getDefault().getScale());
     }
-    public static void scaleDown(TextView textView){
-        float originSize = textView.getTextSize() / FontManager.getDefault().getScale();
+    static void scaleDown(TextView textView, float scale){
+        float originSize = textView.getTextSize() / scale;
         if (FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "") != null) {
             originSize = FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "");
         } else {

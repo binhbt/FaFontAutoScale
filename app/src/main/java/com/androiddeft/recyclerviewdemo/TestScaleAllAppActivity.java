@@ -9,13 +9,11 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.font.FontHelper;
-import com.leo.lib.annotations.IgnoreScale;
-import com.leo.lib.annotations.com.vn.fa.font.FontIgnoreScale;
 import com.vn.fa.font.FontManager;
 
 public class TestScaleAllAppActivity  extends AppCompatActivity {
     public TextView tvGreeting1;
-    @FontIgnoreScale
+    //@FontIgnoreScale
     public TextView tvGreeting2;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

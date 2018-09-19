@@ -1,6 +1,6 @@
-package com.leo.compiler.lib;
+package com.leo.font.lib.compiler;
 
-import com.leo.lib.annotations.internal.BindingSuffix;
+import com.leo.font.lib.annotations.internal.BindingSuffix;
 
 public final class NameStore {
 
@@ -14,6 +14,7 @@ public final class NameStore {
 
     public static class Package {
         public static final String FONT_MANAGER  = "com.vn.fa.font";
+
     }
 
     public static class Class {
@@ -23,11 +24,7 @@ public final class NameStore {
     }
 
     public static class Method {
-        // Binder
         public static final String BIND_FONTS = "bindFonts";
-        public static final String BIND = "bind";
-
-        public static final String APPLY_SCALE_FONT ="applyScaleFont";
     }
 
     public static class Variable {

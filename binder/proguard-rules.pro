@@ -20,6 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.mindorks.lib.annotations.Keep**
--keep @com.mindorks.lib.annotations.Keep public class *
--keepclassmembers @com.mindorks.lib.annotations.Keep class ** { *;}
+-keep class com.leo.font.lib.annotations.Keep**
+-keep @com.leo.font.lib.annotations.Keep public class *
+-keepclassmembers @com.leo.font.lib.annotations.Keep class ** { *;}

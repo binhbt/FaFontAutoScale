@@ -8,9 +8,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.beans.Movie;
-import com.leo.binder.FontBinding;
-import com.leo.lib.annotations.AutoScale;
-import com.leo.lib.annotations.com.vn.fa.font.FontAutoScale;
+import com.leo.font.lib.annotations.AutoScale;
+import com.leo.font.lib.binder.FontBinding;
 import com.vn.fa.font.FontManager;
 
 import java.util.List;
@@ -48,11 +47,11 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomView
             rating.setText(String.valueOf(movie.getRating()));
         }
         public class Test{
-            @AutoScale
+            //@AutoScale
             View root;
 
             public class Test1{
-                @AutoScale
+                //@AutoScale
                 View root1;
             }
         }

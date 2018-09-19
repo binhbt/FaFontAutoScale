@@ -1,5 +1,3 @@
-include ':app'
-include ':annotations'
-include ':binder'
-include ':compiler'
+include ':app', ':compiler', ':annotations', ':binder'
+
 

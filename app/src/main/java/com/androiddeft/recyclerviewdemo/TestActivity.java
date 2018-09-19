@@ -9,26 +9,26 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.font.FontHelper;
-import com.leo.binder.FontBinding;
-import com.leo.lib.annotations.AutoScale;
-import com.leo.lib.annotations.IgnoreScale;
-import com.leo.lib.annotations.com.vn.fa.font.FontAutoScale;
+import com.leo.font.lib.annotations.AutoScale;
+import com.leo.font.lib.binder.FontBinding;
 import com.vn.fa.font.FontManager;
 
 public class TestActivity extends AppCompatActivity {
     @AutoScale
 //    @BindView(R.id.tv_greeting1)
     TextView tvGreeting1;
-    @IgnoreScale
+    //@IgnoreScale
     public TextView tvGreeting2;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
+        FontManager.getDefault().setScale(3);
         tvGreeting1 = (TextView) findViewById(R.id.tv_greeting1);
         tvGreeting2 = (TextView) findViewById(R.id.tv_greeting2);
 //        FontManager.bind(this);
         FontBinding.bind(this);
+//        new TestActivity$FontBinding(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

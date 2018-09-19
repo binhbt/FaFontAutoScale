@@ -1,4 +1,4 @@
-package com.leo.lib.annotations.com.vn.fa.font;
+package com.vn.fa.font;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -13,6 +13,6 @@ import java.lang.annotation.Target;
 @Documented
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface FontAutoScale {
-    boolean isScale() default true;
+public @interface FontIgnoreScale {
+    boolean isIgnoreScale() default true;
 }
