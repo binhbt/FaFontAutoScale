@@ -1,12 +1,10 @@
 apply plugin: 'java-library'
-apply plugin: 'maven'
-group = 'com.github.binhbt'
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':annotations')
     implementation 'com.squareup:javapoet:1.11.1'
 }
-
 
 sourceCompatibility = JavaVersion.VERSION_1_7
 targetCompatibility = JavaVersion.VERSION_1_7

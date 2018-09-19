@@ -1,8 +1,8 @@
-package com.leo.compiler.lib;
+package com.leo.font.lib.compiler;
 
-import com.leo.lib.annotations.AutoScale;
-import com.leo.lib.annotations.IgnoreScale;
-import com.leo.lib.annotations.Keep;
+import com.leo.font.lib.annotations.AutoScale;
+import com.leo.font.lib.annotations.IgnoreScale;
+import com.leo.font.lib.annotations.Keep;
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.JavaFile;
 import com.squareup.javapoet.MethodSpec;
@@ -27,10 +27,6 @@ import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.ElementFilter;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
-
-/**
- * leobui 09/17/2018
- */
 
 public class Processor extends AbstractProcessor {
 
@@ -60,11 +56,12 @@ public class Processor extends AbstractProcessor {
 
             // for each such class create a wrapper class for binding
             for (TypeElement typeElement : typeElements) {
-                //String parentClass = getParentChain(typeElement);
                 String packageName = elementUtils.getPackageOf(typeElement).getQualifiedName().toString();
+                String typeNameContainer = getParentChainType(typeElement);
                 String typeName = getParentChain(typeElement);
-                ClassName className = ClassName.get(packageName, typeName);
-                messager.printMessage(Diagnostic.Kind.ERROR, className.toString(), typeElement);
+
+                ClassName className = ClassName.get(packageName, typeNameContainer);
+
                 ClassName generatedClassName = ClassName
                         .get(packageName, NameStore.getGeneratedClassName(typeName));
 
@@ -80,17 +77,20 @@ public class Processor extends AbstractProcessor {
                         .addStatement("$N($N)",
                                 NameStore.Method.BIND_FONTS,
                                 NameStore.Variable.CONTAINER)
+//                        .addStatement("$N($N)",
+//                                NameStore.Method.BIND_ON_CLICKS,
+//                                NameStore.Variable.CONTAINER)
                         .build());
-                ClassName fontManagerClassName = ClassName.get(
-                        NameStore.Package.FONT_MANAGER,
-                        NameStore.Class.FONT_MANAGER);
+
                 // add method that maps the views with id
                 MethodSpec.Builder bindViewsMethodBuilder = MethodSpec
                         .methodBuilder(NameStore.Method.BIND_FONTS)
                         .addModifiers(Modifier.PRIVATE)
                         .returns(void.class)
                         .addParameter(className, NameStore.Variable.CONTAINER);
-
+                ClassName fontManagerClassName = ClassName.get(
+                        NameStore.Package.FONT_MANAGER,
+                        NameStore.Class.FONT_MANAGER);
                 for (VariableElement variableElement : ElementFilter.fieldsIn(typeElement.getEnclosedElements())) {
                     AutoScale fontAutoScale = variableElement.getAnnotation(AutoScale.class);
                     if (fontAutoScale != null) {
@@ -132,7 +132,6 @@ public class Processor extends AbstractProcessor {
                 IgnoreScale.class.getCanonicalName(),
                 Keep.class.getCanonicalName()));
     }
-
     private static String getParentChain(final TypeElement targetClass) {
         // if input is top level class return it
         // otherwise return the parent chain plus it
@@ -150,5 +149,21 @@ public class Processor extends AbstractProcessor {
             return (getParentChain((TypeElement) parent)) + "$" + targetClass.getSimpleName().toString();
         }
     }
+    private static String getParentChainType(final TypeElement targetClass) {
+        // if input is top level class return it
+        // otherwise return the parent chain plus it
 
+        if (targetClass.getNestingKind() == NestingKind.TOP_LEVEL) {
+            return targetClass.getSimpleName().toString();
+        } else {
+            final Element parent = targetClass.getEnclosingElement();
+
+            if (parent.getKind() != ElementKind.CLASS) {
+                return null;
+                //throw new RuntimeException("Cannot create parent chain. Non-class parent found.");
+            }
+
+            return (getParentChain((TypeElement) parent)) + "." + targetClass.getSimpleName().toString();
+        }
+    }
 }

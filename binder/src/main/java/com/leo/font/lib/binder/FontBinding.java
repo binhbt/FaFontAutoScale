@@ -1,12 +1,12 @@
-package com.leo.binder;
+package com.leo.font.lib.binder;
 
-import com.leo.lib.annotations.internal.BindingSuffix;
+import android.app.Activity;
+
+import com.leo.font.lib.annotations.internal.BindingSuffix;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-/**
- * leobui 09/17/2018
- */
+
 public class FontBinding {
 
     private FontBinding() {

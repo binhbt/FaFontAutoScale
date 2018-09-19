@@ -1,4 +1,4 @@
-package com.leo.lib.annotations.internal;
+package com.leo.font.lib.annotations.internal;
 
 public class BindingSuffix {
 
