@@ -9,11 +9,13 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.font.FontHelper;
+import com.leo.font.lib.annotations.IgnoreScale;
+import com.leo.font.lib.binder.FontBinding;
 import com.vn.fa.font.FontManager;
 
 public class TestScaleAllAppActivity  extends AppCompatActivity {
     public TextView tvGreeting1;
-    //@FontIgnoreScale
+    @IgnoreScale
     public TextView tvGreeting2;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -22,7 +24,7 @@ public class TestScaleAllAppActivity  extends AppCompatActivity {
         tvGreeting1 = (TextView) findViewById(R.id.tv_greeting1);
         tvGreeting2 = (TextView) findViewById(R.id.tv_greeting2);
         FontHelper.init(this, FontManager.FontScaleType.SCALE_ALL);
-        FontManager.bind(this);
+        FontBinding.bind(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

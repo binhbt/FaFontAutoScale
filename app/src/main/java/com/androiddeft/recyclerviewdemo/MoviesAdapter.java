@@ -23,9 +23,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomView
     private List<Movie> movies;
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
-        @AutoScale
         TextView movieName;
-        @AutoScale
         TextView year;
         public TextView genre;
         public TextView rating;
@@ -45,15 +43,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomView
             genre.setText(movie.getGenre());
             year.setText(String.valueOf(movie.getYear()));
             rating.setText(String.valueOf(movie.getRating()));
-        }
-        public class Test{
-            //@AutoScale
-            View root;
-
-            public class Test1{
-                //@AutoScale
-                View root1;
-            }
         }
 
     }

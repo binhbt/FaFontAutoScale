@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.font.FontHelper;
@@ -15,10 +16,11 @@ import com.vn.fa.font.FontManager;
 
 public class TestActivity extends AppCompatActivity {
     @AutoScale
-//    @BindView(R.id.tv_greeting1)
     TextView tvGreeting1;
-    //@IgnoreScale
-    public TextView tvGreeting2;
+    @AutoScale
+    TextView tvGreeting2;
+    @AutoScale
+    WebView webView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,9 +28,10 @@ public class TestActivity extends AppCompatActivity {
         FontManager.getDefault().setScale(3);
         tvGreeting1 = (TextView) findViewById(R.id.tv_greeting1);
         tvGreeting2 = (TextView) findViewById(R.id.tv_greeting2);
-//        FontManager.bind(this);
+        webView = findViewById(R.id.webView);
         FontBinding.bind(this);
-//        new TestActivity$FontBinding(this);
+        webView.loadUrl("https://github.com/binhbt/FaFontAutoScale");
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -51,7 +54,6 @@ public class TestActivity extends AppCompatActivity {
                 break;
         }
         FontBinding.bind(this);
-//        FontManager.bind(this);
         return super.onOptionsItemSelected(item);
     }
     public void doST(View v){
