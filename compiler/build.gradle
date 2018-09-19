@@ -1,5 +1,6 @@
 apply plugin: 'java-library'
-
+group = 'com.github.binhbt'
+apply plugin: 'maven'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':annotations')
