@@ -33,7 +33,7 @@ Add a dependency to your
 Register TextView for Scale:
 
 ```
-        @FontAutoScale
+        @AutoScale
         TextView movieName;
 ```
  - `    FontBinding.bind(this)`: Class contain TextView
