@@ -94,11 +94,12 @@ public class Processor extends AbstractProcessor {
                 for (VariableElement variableElement : ElementFilter.fieldsIn(typeElement.getEnclosedElements())) {
                     AutoScale fontAutoScale = variableElement.getAnnotation(AutoScale.class);
                     if (fontAutoScale != null) {
-                        if (fontAutoScale.isScale())
+                        if (fontAutoScale.isScale()) {
                             bindViewsMethodBuilder.addStatement("$T.applyScaleFont($N.$N)",
                                     fontManagerClassName,
                                     NameStore.Variable.CONTAINER,
                                     variableElement.getSimpleName());
+                        }
                     }
                     IgnoreScale fontIgnoreScale = variableElement.getAnnotation(IgnoreScale.class);
                     if (fontIgnoreScale != null) {

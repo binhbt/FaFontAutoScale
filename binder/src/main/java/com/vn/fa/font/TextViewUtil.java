@@ -6,7 +6,7 @@ import android.widget.TextView;
 /**
  * leobui 09/06/2018
  */
-public class TextViewUtil {
+public final class TextViewUtil {
     public static void scaleUp(TextView textView, float originSize, float scale){
         changeTextSize(textView, originSize * scale);
     }

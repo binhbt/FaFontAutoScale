@@ -10,7 +10,7 @@ import com.vn.fa.font.TextViewUtil;
 /**
  * leobui 09/17/2018
  */
-public class ViewGroupUtil {
+public final class ViewGroupUtil {
     public static void scaleUp(View v, float scale) {
         try {
             if (v instanceof ViewGroup) {

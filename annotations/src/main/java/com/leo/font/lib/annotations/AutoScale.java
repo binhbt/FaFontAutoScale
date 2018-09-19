@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * leobui 09/06/2018
  */
 @Retention(RetentionPolicy.SOURCE)
-@Target(ElementType.FIELD)
+@Target({ElementType.FIELD, ElementType.TYPE})
 public @interface AutoScale {
     boolean isScale() default true;
 }

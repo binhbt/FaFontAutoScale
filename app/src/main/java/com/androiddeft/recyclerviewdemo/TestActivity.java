@@ -14,12 +14,13 @@ import com.leo.font.lib.annotations.AutoScale;
 import com.leo.font.lib.binder.FontBinding;
 import com.vn.fa.font.FontManager;
 
+@AutoScale
 public class TestActivity extends AppCompatActivity {
-    @AutoScale
+    //@AutoScale
     TextView tvGreeting1;
-    @AutoScale
+    //@AutoScale
     TextView tvGreeting2;
-    @AutoScale
+    //@AutoScale
     WebView webView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

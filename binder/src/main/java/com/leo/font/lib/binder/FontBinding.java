@@ -1,7 +1,5 @@
 package com.leo.font.lib.binder;
 
-import android.app.Activity;
-
 import com.leo.font.lib.annotations.internal.BindingSuffix;
 
 import java.lang.reflect.Constructor;
