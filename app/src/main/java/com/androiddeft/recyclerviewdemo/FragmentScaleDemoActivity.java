@@ -2,36 +2,22 @@ package com.androiddeft.recyclerviewdemo;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.androiddeft.recyclerviewdemo.font.FontHelper;
-import com.leo.font.lib.annotations.AutoScale;
 import com.leo.font.lib.binder.FontBinding;
 import com.vn.fa.font.FontManager;
+import android.support.v7.app.AppCompatActivity;
 
-public class TestActivity extends AppCompatActivity {
-    @AutoScale
-    TextView tvGreeting1;
-    @AutoScale
-    TextView tvGreeting2;
-    @AutoScale
-    WebView webView;
+public class FragmentScaleDemoActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
-        FontManager.getDefault().setScale(1);
-        tvGreeting1 = (TextView) findViewById(R.id.tv_greeting1);
-        tvGreeting2 = (TextView) findViewById(R.id.tv_greeting2);
-        webView = findViewById(R.id.webView);
-        FontBinding.bind(this);
-        webView.loadUrl("https://github.com/binhbt/FaFontAutoScale");
-
+        setContentView(R.layout.activity_fragment_est);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,20 +29,31 @@ public class TestActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.font_small:
-                FontHelper.scaleFont(TestActivity.this, 0);
+                FontHelper.scaleFont(this, 0);
                 break;
             case R.id.font_big:
-                FontHelper.scaleFont(TestActivity.this, 1);
+                FontHelper.scaleFont(this, 1);
 
                 break;
             case R.id.font_huge:
-                FontHelper.scaleFont(TestActivity.this, 2);
+                FontHelper.scaleFont(this, 2);
                 break;
         }
-        FontBinding.bind(this);
+        if (listener != null){
+            listener.doChange();
+        }
         return super.onOptionsItemSelected(item);
     }
-    public void doST(View v){
+    public interface OnFontChangeListener{
+        void doChange();
+    }
+    private OnFontChangeListener listener;
 
+    public OnFontChangeListener getListener() {
+        return listener;
+    }
+
+    public void setListener(OnFontChangeListener listener) {
+        this.listener = listener;
     }
 }

@@ -1,5 +1,6 @@
 package com.vn.fa.font;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.util.DisplayMetrics;
@@ -144,8 +145,17 @@ public class FontManager {
         ctx.getResources().updateConfiguration(configuration, metrics);
     }
 
-    public static void applyScaleFont(View v) {
+    public static void applyScaleFont(Object v) {
         if (FontManager.getDefault().getScaleType() != FontScaleType.NOT_SCALE_ALL) return;
+        if (v instanceof Activity) {
+            ActivityUtil.scaleUp((Activity)v, FontManager.getDefault().getScale());
+        }
+        if (v instanceof android.app.Fragment) {
+            FragmentUtil.scaleUp((android.app.Fragment)v, FontManager.getDefault().getScale());
+        }
+        if (v instanceof android.support.v4.app.Fragment) {
+            FragmentUtil.scaleUp((android.support.v4.app.Fragment)v, FontManager.getDefault().getScale());
+        }
         if (v instanceof TextView) {
             TextView textView = (TextView) v;
             if (textView != null) {
@@ -159,16 +169,25 @@ public class FontManager {
             }
         }
         if (v instanceof ViewGroup) {
-            ViewGroupUtil.scaleUp(v, FontManager.getDefault().getScale());
+            ViewGroupUtil.scaleUp((View)v, FontManager.getDefault().getScale());
         }
         if (v instanceof WebView) {
             WebViewUtil.scaleUp((WebView) v, FontManager.getDefault().getScale());
         }
     }
 
-    public static void applyScaleDownFont(View v) {
+    public static void applyScaleDownFont(Object v) {
 
         if (FontManager.getDefault().getScaleType() != FontScaleType.SCALE_ALL) return;
+        if (v instanceof Activity) {
+            ActivityUtil.scaleDown((Activity)v, FontManager.getDefault().getScale());
+        }
+        if (v instanceof android.app.Fragment) {
+            FragmentUtil.scaleDown((android.app.Fragment)v, FontManager.getDefault().getScale());
+        }
+        if (v instanceof android.support.v4.app.Fragment) {
+            FragmentUtil.scaleDown((android.support.v4.app.Fragment)v, FontManager.getDefault().getScale());
+        }
         if (v instanceof TextView) {
             TextView textView = (TextView) v;
             if (textView != null) {
@@ -182,7 +201,7 @@ public class FontManager {
             }
         }
         if (v instanceof ViewGroup) {
-            ViewGroupUtil.scaleDown(v, FontManager.getDefault().getScale());
+            ViewGroupUtil.scaleDown((View)v, FontManager.getDefault().getScale());
         }
         if (v instanceof WebView) {
             WebViewUtil.scaleDown((WebView) v, FontManager.getDefault().getScale());
