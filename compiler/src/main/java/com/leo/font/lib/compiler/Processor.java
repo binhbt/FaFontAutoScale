@@ -10,6 +10,7 @@ import com.squareup.javapoet.TypeSpec;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -24,6 +25,7 @@ import javax.lang.model.element.Modifier;
 import javax.lang.model.element.NestingKind;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
+import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.ElementFilter;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
@@ -53,7 +55,28 @@ public class Processor extends AbstractProcessor {
             Set<TypeElement> typeElements = ProcessingUtils.getTypeElementsToProcess(
                     roundEnv.getRootElements(),
                     annotations);
+            for (Element annotatedElement : roundEnv.getElementsAnnotatedWith(AutoScale.class)) {
+                if (annotatedElement.getKind() != ElementKind.CLASS) {
+                    //error("Only class can be annotated with AutoElement", annotatedElement);
+                }else{
+                    note("Found AutoScale"+ annotatedElement);
+                    if (annotatedElement instanceof TypeElement) {
+                        typeElements.add((TypeElement) annotatedElement);
+                    }
+                }
 
+            }
+            for (Element annotatedElement : roundEnv.getElementsAnnotatedWith(IgnoreScale.class)) {
+                if (annotatedElement.getKind() != ElementKind.CLASS) {
+                    //error("Only class can be annotated with AutoElement", annotatedElement);
+                }else{
+                    note("Found IgnoreScale"+ annotatedElement);
+                    if (annotatedElement instanceof TypeElement) {
+                        typeElements.add((TypeElement) annotatedElement);
+                    }
+                }
+
+            }
             // for each such class create a wrapper class for binding
             for (TypeElement typeElement : typeElements) {
                 String packageName = elementUtils.getPackageOf(typeElement).getQualifiedName().toString();
@@ -108,6 +131,24 @@ public class Processor extends AbstractProcessor {
                                     fontManagerClassName,
                                     NameStore.Variable.CONTAINER,
                                     variableElement.getSimpleName());
+                    }
+                }
+                if (typeElement.getKind() == ElementKind.CLASS) {
+                    //error("Only class can be annotated with AutoScale", annotatedElement);
+                    AutoScale fontAutoScale = typeElement.getAnnotation(AutoScale.class);
+                    if (fontAutoScale != null) {
+                        if (fontAutoScale.isScale()) {
+                            bindViewsMethodBuilder.addStatement("$T.applyScaleFont($N)",
+                                    fontManagerClassName,
+                                    NameStore.Variable.CONTAINER);
+                        }
+                    }
+                    IgnoreScale fontIgnoreScale = typeElement.getAnnotation(IgnoreScale.class);
+                    if (fontIgnoreScale != null) {
+                        if (fontIgnoreScale.isIgnoreScale())
+                            bindViewsMethodBuilder.addStatement("$T.applyScaleDownFont($N)",
+                                    fontManagerClassName,
+                                    NameStore.Variable.CONTAINER);
                     }
                 }
                 classBuilder.addMethod(bindViewsMethodBuilder.build());
@@ -166,5 +207,23 @@ public class Processor extends AbstractProcessor {
 
             return (getParentChain((TypeElement) parent)) + "." + targetClass.getSimpleName().toString();
         }
+    }
+    private void error(String message, Element element) {
+        messager.printMessage(Diagnostic.Kind.ERROR, message, element);
+    }
+
+    private void error(String message) {
+        messager.printMessage(Diagnostic.Kind.ERROR, message);
+    }
+
+    private void note(String message) {
+        messager.printMessage(Diagnostic.Kind.NOTE, message);
+    }
+    private ClassName getName(TypeMirror typeMirror) {
+        String rawString = typeMirror.toString();
+        int dotPosition = rawString.lastIndexOf(".");
+        String packageName = rawString.substring(0, dotPosition);
+        String className = rawString.substring(dotPosition + 1);
+        return ClassName.get(packageName, className);
     }
 }

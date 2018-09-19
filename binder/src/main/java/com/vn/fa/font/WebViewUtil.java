@@ -1,5 +1,6 @@
 package com.vn.fa.font;
 
+import android.util.Log;
 import android.webkit.WebView;
 
 /**
@@ -7,6 +8,7 @@ import android.webkit.WebView;
  */
 public final class WebViewUtil {
     public static void scaleUp(WebView webView, float scale){
+        Log.e("Scale Webview", webView.toString()+"-"+scale);
         changeTextSize(webView, (int)(scale*100));
     }
     public static void changeTextSize(WebView webView, int scale){

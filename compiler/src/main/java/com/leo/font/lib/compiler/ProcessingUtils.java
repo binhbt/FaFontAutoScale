@@ -51,6 +51,7 @@ public class ProcessingUtils {
                                                              Set<? extends Element> supportedAnnotations){
         boolean found = false;
         for (Element subElement : element.getEnclosedElements()) {
+
             for (AnnotationMirror mirror : subElement.getAnnotationMirrors()) {
                 for (Element annotation : supportedAnnotations) {
                     if (mirror.getAnnotationType().asElement().equals(annotation)) {

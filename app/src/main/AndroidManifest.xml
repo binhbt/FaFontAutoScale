@@ -9,18 +9,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.androiddeft.recyclerviewdemo.TestActivity">
 <!--            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
         </activity>
-        <activity android:name="com.androiddeft.recyclerviewdemo.TestActivity">
-            <intent-filter>
+        <activity android:name="com.androiddeft.recyclerviewdemo.ActivityScaleActivity">
+<!--            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.androiddeft.recyclerviewdemo.FragmentScaleDemoActivity">
+<!--            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
         </activity>
         <activity android:name="com.androiddeft.recyclerviewdemo.TestScaleAllAppActivity">
 <!--            <intent-filter>
