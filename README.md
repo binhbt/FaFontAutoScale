@@ -37,8 +37,11 @@ Register TextView for Scale:
         TextView movieName;
 ```
  - `    FontBinding.bind(this)`: Class contain TextView
- 
- -  Support binding for TextView, ViewGroup, WebView 
+ - `    @AutoScale
+public class ActivityScaleActivity  extends AppCompatActivity `
+ - `	@AutoScale
+public class FragmentDemo extends Fragment`
+ -  Support binding for TextView, ViewGroup, WebView , Activity, Fragent
 
  - For Proguard
  ```
