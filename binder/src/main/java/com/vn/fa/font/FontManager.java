@@ -67,7 +67,7 @@ public class FontManager {
     }
 
     @Deprecated
-    public static void bind(Object view) {
+    public static<T> void bind(T view) {
 
         Field[] fields = view.getClass().getFields();
 
@@ -145,8 +145,11 @@ public class FontManager {
         ctx.getResources().updateConfiguration(configuration, metrics);
     }
 
-    public static void applyScaleFont(Object v) {
+    public static <T> void applyScaleFont(T v) {
         if (FontManager.getDefault().getScaleType() != FontScaleType.NOT_SCALE_ALL) return;
+        if (v instanceof android.app.Dialog) {
+            DialogUtil.scaleUp((android.app.Dialog)v, FontManager.getDefault().getScale());
+        }
         if (v instanceof Activity) {
             ActivityUtil.scaleUp((Activity)v, FontManager.getDefault().getScale());
         }
@@ -176,7 +179,7 @@ public class FontManager {
         }
     }
 
-    public static void applyScaleDownFont(Object v) {
+    public static <T> void applyScaleDownFont(T v) {
 
         if (FontManager.getDefault().getScaleType() != FontScaleType.SCALE_ALL) return;
         if (v instanceof Activity) {
