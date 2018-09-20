@@ -42,7 +42,7 @@ public class ActivityScaleActivity  extends AppCompatActivity `
  - `	@AutoScale
 public class FragmentDemo extends Fragment`
  -  Support binding for TextView, ViewGroup, WebView , Activity, Fragent
-
+ -  `  FontManager.getDefault().setScale(1.5f);` Set Scale rate
  - For Proguard
  ```
  -keep class com.leo.font.lib.annotations.Keep**
