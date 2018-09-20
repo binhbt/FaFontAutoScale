@@ -25,8 +25,8 @@ Add a dependency to your
 `build.gradle`:
 
     dependencies {
-		compile 'com.github.binhbt.FaFontAutoScale:binder:1.0.20'
-		annotationProcessor 'com.github.binhbt.FaFontAutoScale:compiler:1.0.20'
+		compile 'com.github.binhbt.FaFontAutoScale:binder:1.1.0'
+		annotationProcessor 'com.github.binhbt.FaFontAutoScale:compiler:1.1.0'
     }
 
 
