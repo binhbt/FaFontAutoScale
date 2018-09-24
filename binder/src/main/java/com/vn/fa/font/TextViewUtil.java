@@ -23,6 +23,15 @@ public final class TextViewUtil {
         }
         changeTextSize(textView, originSize * FontManager.getDefault().getScale());
     }
+    static void scaleUp(TextView textView, float scale){
+        float originSize = textView.getTextSize();
+        if (FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "") != null) {
+            originSize = FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "");
+        } else {
+            FontManager.getDefault().getOriginItemSize().put(textView.hashCode() + "", originSize);
+        }
+        changeTextSize(textView, originSize * scale);
+    }
     static void scaleDown(TextView textView, float scale){
         float originSize = textView.getTextSize() / scale;
         if (FontManager.getDefault().getOriginItemSize().get(textView.hashCode() + "") != null) {
