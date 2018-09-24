@@ -16,7 +16,7 @@ public final class ViewGroupUtil {
             if (v instanceof WebView) {
                 WebViewUtil.scaleUp((WebView) v, scale);
             } else if (v instanceof TextView) {
-                TextViewUtil.scaleUp((TextView) v);
+                TextViewUtil.scaleUp((TextView) v, scale);
             } else if (v instanceof ViewGroup) {
                 ViewGroup vg = (ViewGroup) v;
                 for (int i = 0; i < vg.getChildCount(); i++) {
