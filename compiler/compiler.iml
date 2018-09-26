@@ -29,8 +29,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="annotations" exported="" />
     <orderEntry type="module" module-name="annotations" exported="" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="javapoet-1.11.1" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="javapoet-1.11.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="javapoet-1.11.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: javapoet-1.11.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: javapoet-1.11.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: javapoet-1.11.1" level="project" />
   </component>
 </module>
