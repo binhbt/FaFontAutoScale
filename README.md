@@ -1,5 +1,5 @@
 
-Fuckin Simple Android TextView Scale Font Injection use Annotation
+Fuckin Simple Android TextView Scale Font
 =================
 
 Demo
